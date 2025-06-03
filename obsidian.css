@@ -1,0 +1,76 @@
+th {
+background-color: white !important;
+color: grey !important;
+border: 1px solid white !important;
+}
+
+tbody > tr > td {
+border: 1px solid white !important;
+}
+
+/* italic */
+span.cm-em {
+color: #e6a565 !important;
+}
+
+/* italic and bold */
+.cm-em.cm-strong,
+strong > em {
+color: #e37f78 !important;
+}
+
+/* headers */
+h1, .cm-header-1 {
+    color: #a890d3 !important;
+}
+
+h2, .cm-header-2 {
+    color: #6b5ca5 !important;
+}
+
+h3, .cm-header-3 {
+    color: #5c80cc !important;
+}
+
+h4, .cm-header-4 {
+    color: #5faf5f !important;
+}
+
+h5, .cm-header-5 {
+    color: #bbaa44 !important;
+}
+
+h6, .cm-header-6 {
+    color: #cc8844 !important;
+}
+
+.HyperMD-header {
+padding-bottom: 7px !important;
+}
+
+/* links */
+.cm-link, .cm-url, .cm-hmd-internal-link {
+    color: #abffeb !important;
+}
+
+code:not([class]), .cm-inline-code {
+    color: #87c9ff !important;
+}
+
+/* ordered lists */
+.cm-formatting-list-ol {
+    color: #ffd1e2 !important;
+}
+
+/*.mermaid {
+max-width: 50% !important;
+display: inline-block !important;
+}*/
+
+div.cm-embed-block {
+display: inline !important;
+}
+
+g.legend > text {
+background-color: white !important;
+}
